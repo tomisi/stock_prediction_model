@@ -1,35 +1,33 @@
-Stock Prediction App
-Overview
+# Stock Prediction App
+
+## Overview
+
 The Stock Prediction App is a web application developed using Streamlit, a Python library for creating interactive web applications. This app predicts the stock prices of selected companies based on historical data using the Prophet forecasting model.
 
-Features
-Stock Selection: Users can choose from a predefined list of stocks, including GOOG, AAPL, MSFT, and GME.
+## Features
 
-Years of Prediction: Users can adjust the number of years for which they want stock price predictions using a slider.
+- **Stock Selection:** Users can choose from a predefined list of stocks, including GOOG, AAPL, MSFT, and GME.
 
-Interactive Data Loading: The app fetches historical stock data using the Yahoo Finance API and displays loading messages to keep users informed about the data retrieval process.
+- **Years of Prediction:** Users can adjust the number of years for which they want stock price predictions using a slider.
 
-Visualization of Raw Data: The app provides an interactive plot of the raw stock data, allowing users to analyze Open and Close prices over time.
+- **Interactive Data Loading:** The app fetches historical stock data using the Yahoo Finance API and displays loading messages to keep users informed about the data retrieval process.
 
-Prophet Forecasting: The app utilizes the Prophet forecasting model from the prophet library to predict future stock prices.
+- **Visualization of Raw Data:** The app provides an interactive plot of the raw stock data, allowing users to analyze Open and Close prices over time.
 
-Forecast Plot: Users can view the predicted stock prices along with a visual representation of the forecast for the selected number of years.
+- **Prophet Forecasting:** The app utilizes the Prophet forecasting model from the `prophet` library to predict future stock prices.
 
-Forecast Components: The app displays the components of the forecast, including trend, seasonality, and holidays.
+- **Forecast Plot:** Users can view the predicted stock prices along with a visual representation of the forecast for the selected number of years.
 
-Getting Started
+- **Forecast Components:** The app displays the components of the forecast, including trend, seasonality, and holidays.
+
+## Getting Started
+
 To run the Stock Prediction App, follow these steps:
 
-Install the required libraries by running:
+1. Clone the repository:
 
-bash
-Copy code
-pip install streamlit yfinance prophet plotly
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/tomisi/stock_prediction_model.git
+   ```bash
+   git clone https://github.com/tomisi/stock_prediction_model.git
 Navigate to the project directory:
 
 bash
@@ -53,3 +51,8 @@ This project is licensed under the MIT License.
 Acknowledgments
 The app uses the yfinance library to fetch stock data from Yahoo Finance.
 The forecasting model is powered by the prophet library developed by Facebook.
+csharp
+Copy code
+
+Copy and paste this Markdown content into the respective section o
+
