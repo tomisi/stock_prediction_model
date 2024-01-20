@@ -51,8 +51,4 @@ This project is licensed under the MIT License.
 Acknowledgments
 The app uses the yfinance library to fetch stock data from Yahoo Finance.
 The forecasting model is powered by the prophet library developed by Facebook.
-csharp
-Copy code
-
-Copy and paste this Markdown content into the respective section o
 
